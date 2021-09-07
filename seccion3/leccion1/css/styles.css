@@ -1,0 +1,21 @@
+body{
+    background-color: lightcoral;
+}
+
+h1{
+
+    margin: auto;
+    padding: 10px;
+    color: darkblue;
+    text-align: center;
+
+}
+
+p{
+    background-color: aqua;
+    padding: 15px;
+    border: 10px solid palevioletred;
+    margin: 10px 20px;
+    text-align: center;
+    
+}

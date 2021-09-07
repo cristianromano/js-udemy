@@ -1,0 +1,45 @@
+/* h1{
+    color: blue;
+}
+
+ul{
+
+    list-style-type: none;
+    background-color: darkblue;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: whitesmoke;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: crimson;
+} */
+
+ol li::before {
+  content: 'Curso: ' counter(contador) ') ';
+  color: crimson;
+}
+
+ol li{
+    counter-increment: contador;
+}
+
+ol li::after {
+  content: '.';
+}
+
+ol{
+    counter-reset: contador;
+    list-style: none;
+}

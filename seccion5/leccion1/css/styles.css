@@ -1,0 +1,49 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+#titulo{
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    color: coral;
+}
+
+p{
+    color: firebrick;
+}
+
+div.Lenguajes{
+    padding: 15px ;
+    border: 15px solid blue;
+    text-align: center;
+    background-color: lightblue;
+    margin: 15px 100px;
+}
+
+div{
+    padding: 10px;
+}
+
+.resaltado{
+    color: deeppink;
+}
+
+a{
+    padding: 15px;
+    color: darkgreen;
+    border: 10px solid lightgreen;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+a:hover{
+    color: crimson;
+    background-color: cornflowerblue;
+    border: 10px solid darkred;
+}

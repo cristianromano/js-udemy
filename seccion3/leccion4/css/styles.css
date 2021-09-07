@@ -1,0 +1,33 @@
+table , th , tr , caption{
+    border: 1px solid lightcoral;
+    text-align: center;
+    border-collapse: collapse;
+    /* border-spacing: 3px; */
+    padding: 5px;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+}
+
+caption{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    background-color: lightcoral;
+}
+
+th{
+    color: wheat;
+    background-color: blue;
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd){
+    background-color: lightseagreen;
+}

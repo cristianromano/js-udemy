@@ -1,0 +1,29 @@
+h1{
+    color: lightcoral;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+    background-color: lightseagreen;
+}
+
+a:visited{
+    color:deeppink;
+    text-decoration: none;
+}
+
+/* encima del link */
+a:hover{
+color: darkgreen;
+text-decoration: none;
+}
+
+a:active{
+    color: darkorange;
+    text-decoration: none;
+}
+
+
+
